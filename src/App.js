@@ -1,13 +1,15 @@
 import React from 'react';
 import './App.css';
+import profilePic from './images/profile.jpg';
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <h1>Alan Hsu</h1>
-        <p>Software Engineer</p>
-      </header>
+    <header className="App-header">
+      <img src={profilePic} alt="Alan Hsu" className="profile" />
+      <h1>Alan Hsu</h1>
+      <p>Software Engineer</p>
+    </header>
 
       <nav>
         <ul>
@@ -31,11 +33,11 @@ function App() {
           <div className="project">
             <h3>Software Engineer Intern - Blue Hill Tech, Inc.</h3>
             <p>September 2022 - September 2023</p>
-            <ul>
+
               <li>Designed and implemented an order management system processing 1,000+ daily orders, utilizing DynamoDB for efficient querying and data management.</li>
               <li>Implemented data visualization components using React and Node.js.</li>
               <li>Designed and implemented RESTful API for seamless communication between system components.</li>
-            </ul>
+          
           </div>
         </section>
 
