@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/alan-hsu-portfolio/static/css/main.ffaf4a1f.css",
+    "main.js": "/alan-hsu-portfolio/static/js/main.c08d0cfb.js",
+    "static/js/453.ee387b42.chunk.js": "/alan-hsu-portfolio/static/js/453.ee387b42.chunk.js",
+    "index.html": "/alan-hsu-portfolio/index.html",
+    "main.ffaf4a1f.css.map": "/alan-hsu-portfolio/static/css/main.ffaf4a1f.css.map",
+    "main.c08d0cfb.js.map": "/alan-hsu-portfolio/static/js/main.c08d0cfb.js.map",
+    "453.ee387b42.chunk.js.map": "/alan-hsu-portfolio/static/js/453.ee387b42.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffaf4a1f.css",
+    "static/js/main.c08d0cfb.js"
+  ]
+}
