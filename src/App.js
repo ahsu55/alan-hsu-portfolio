@@ -63,7 +63,7 @@ function App() {
         <section id="skills">
           <h2>Skills</h2>
           <p>
-            <li>Programming Languages: Java, Python, Golang, C, C++, C#, JavaScript, TypeScript, React, Kotlin, Swift</li>
+            <li>Programming Languages: Java, Python, Golang, C, C++, C#, JavaScript, TypeScript, React, Kotlin, Swift, SQL</li>
             <li>Containerization: Docker</li>
             <li>Databases: MySQL, PostgreSQL</li>
             <li>Cloud Technologies: AWS Cloud (EC2), Amazon S3, DynamoDB</li>
