@@ -62,14 +62,14 @@ function App() {
 
         <section id="skills">
           <h2>Skills</h2>
-          <ul>
+          <p>
             <li>Programming Languages: Java, Python, Golang, C, C++, C#, JavaScript, TypeScript, React, Kotlin, Swift</li>
             <li>Containerization: Docker</li>
             <li>Databases: MySQL, PostgreSQL</li>
             <li>Cloud Technologies: AWS Cloud (EC2), Amazon S3, DynamoDB</li>
             <li>Version Control: Git, GitHub</li>
             <li>Languages: English, Chinese(Mandarin)</li>
-          </ul>
+          </p>
         </section>
 
         <section id="projects">
@@ -77,11 +77,11 @@ function App() {
           <div className="project">
             <h3>Capstone Project: Online E-commerce Marketplace for Selling Salvaged Lumber</h3>
             <p>Urban Machine • September 2022 - March 2023</p>
-            <ul>
+            <p>
               <li>Collaborated in a team of 5 students to develop a prototype application for selling salvaged lumber online.</li>
               <li>Designed and implemented an online e-commerce marketplace with a three-tier architecture.</li>
               <li>Utilized PostgreSQL, SQL, Python, Node.js, Typescript, and REST APIs for database management, full stack development, and seamless integration of user interactions.</li>
-            </ul>
+            </p>
           </div>
         </section>
 
