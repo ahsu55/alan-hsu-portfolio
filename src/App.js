@@ -25,7 +25,10 @@ function App() {
       <main>
         <section id="about">
           <h2>About Me</h2>
-          <p>Dynamic software engineer with a Bachelor's degree in Software Engineering from Arizona State University and valuable internship experience at Blue Hill Tech, Inc. Proficient in Python, Java, JavaScript, and web development frameworks including React and Spring Boot.</p>
+          <p>I’m Alan Hsu, a software developer with a robust foundation in full stack and mobile development. Before transitioning to tech, I managed a Starbucks store full-time while balancing my studies, successfully driving business growth, enhancing customer satisfaction, and reducing turnover. I achieved a GPA of 3.86 and graduated summa cum laude during this period.</p>
+          <p>In my role as a Software Engineer Intern at Blue Hill Tech, I gained extensive hands-on experience and honed my skills across various aspects of software development. I focused heavily on Java object-oriented programming, including encapsulation to ensure data integrity and security, the Spring Boot framework, and the Model-View-Controller (MVC) architecture. My work involved using Data Access Objects (DAO) and Business Objects (BO), JavaBeans, and controllers to build APIs, which deepened my understanding of building scalable and maintainable software solutions. Additionally, I worked with AWS DynamoDB, implemented APIs, and contributed to frontend development using React, Swift, and Kotlin for mobile app and web development.</p>
+          <p>I’m skilled in Java, React, Python, JavaScript, and TypeScript, with experience in backend development, AWS, web development with React and React-admin, and mobile app development using Kotlin and Swift. I’m excited to leverage my diverse skills and experiences in a dynamic and collaborative environment.</p>
+
         </section>
 
         <section id="experience">
@@ -34,10 +37,16 @@ function App() {
             <h3>Software Engineer Intern - Blue Hill Tech, Inc.</h3>
             <p>September 2022 - September 2023</p>
 
-              <li>Designed and implemented an order management system processing 1,000+ daily orders, utilizing DynamoDB for efficient querying and data management.</li>
-              <li>Implemented data visualization components using React and Node.js.</li>
-              <li>Designed and implemented RESTful API for seamless communication between system components.</li>
-          
+              <li>Designed and implemented an order management system processing 1,000+ daily orders, utilizing DynamoDB for efficient querying and data management while adhering to strict coding standards.</li>
+              <li>Implemented data visualization components using React and Node.js, showcasing proficiency in multiple programming languages.</li>
+              <li>Designed and implemented RESTful API for seamless communication between system components, demonstrating strong problem-solving skills.</li>
+              <li>Ensured code quality and reliability by conducting thorough code reviews and implementing automated testing framework, resulting in 98% bug-free codebase.</li>
+              <li>Utilized the robotics middleware (ROS) to adjust robot actions and program automated tasks, enhancing operational efficiency and precision.</li>
+              <li>Increased team productivity by 20% through successful implementation of Robot IO management features, saving 40 OPS days per year.</li>
+              <li>Streamlined store metadata management process, increasing efficiency by 50% and empowering non-technical team members.</li>
+              <li>Improved code reliability by developing and executing automated tests, including unit and integration tests with SpringBootTest and JUnit.</li>
+              <li>Collaborated with cross-functional teams to create UI design for iOS & Android apps, ensuring intuitive and visually appealing UI design while applying computer science concepts and demonstrating effective problem solver capabilities.</li>
+         
           </div>
         </section>
 
@@ -59,6 +68,7 @@ function App() {
             <li>Databases: MySQL, PostgreSQL</li>
             <li>Cloud Technologies: AWS Cloud (EC2), Amazon S3, DynamoDB</li>
             <li>Version Control: Git, GitHub</li>
+            <li>Languages: English, Chinese(Mandarin)</li>
           </ul>
         </section>
 
