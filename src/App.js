@@ -34,7 +34,7 @@ function App() {
         <section id="experience">
           <h2>Work Experience</h2>
           <div className="project">
-            <h3>Software Engineer Intern - Blue Hill Tech, Inc.</h3>
+            <h3>Software Engineer Intern - Artly AI.</h3>
             <p>September 2022 - September 2023</p>
 
               <li>Designed and implemented an order management system processing 1,000+ daily orders, utilizing DynamoDB for efficient querying and data management while adhering to strict coding standards.</li>
