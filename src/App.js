@@ -25,10 +25,19 @@ function App() {
       <main>
         <section id="about">
           <h2>About Me</h2>
-            <p>I’m a Software Engineer with hands-on experience across full-stack development, field engineering, and technical support in robotics and production environments.I enjoy working across both software systems and real-world hardware deployments, bridging the gap between engineering teams and on-site operations.</p>
-          <p>Previously, I worked as a Store Manager at Starbucks while completing my degree, where I developed strong leadership, customer service, and operational problem-solving skills.I graduated summa cum laude with a GPA of 3.68 while working full time.</p>
-  <p>In my engineering experience, I have built and supported production systems including backend services, APIs, and robotics-integrated workflows.I’ve worked with Java, Spring Boot, AWS (DynamoDB), and React, as well as on-site systems support, debugging, and field troubleshooting for deployed hardware/software systems.</p>
+            <p>
+              I’m a Software Engineer with experience across full-stack development, field engineering, and technical support in robotics and production environments.
+              I enjoy working across both software systems and real-world hardware deployments, bridging engineering teams with on-site operations.
+            </p>
 
+            <p>
+              Previously, I worked as a Store Manager at Starbucks while completing my degree, where I developed strong leadership, customer service, and operational problem-solving skills.
+              I graduated summa cum laude with a 3.68 GPA while working full time.
+            </p>
+
+            <p>
+              My engineering experience includes building backend services, APIs, and robotics-integrated systems using Java, Spring Boot, AWS (DynamoDB), and React, along with hands-on field troubleshooting and system support in production environments.
+            </p>
         </section>
 
       <section id="experience">
@@ -68,16 +77,16 @@ function App() {
 
         <section id="skills">
           <h2>Skills</h2>
-          <p>
-            <li>Languages: Java, Python, JavaScript, TypeScript, C++, Kotlin, Swift</li>
-            <li>Backend: Spring Boot, REST APIs, Microservices</li>
-            <li>Field / Systems: Robotics systems support, troubleshooting, deployment support</li>
-            <li>Cloud: AWS (EC2, S3, DynamoDB)</li>
-            <li>Databases: MySQL, PostgreSQL, DynamoDB</li>
-            <li>Frontend: React</li>
-            <li>Tools: Docker, Git, GitHub</li>
-            <li>Languages: English, Mandarin</li>
-          </p>
+             <ul>
+                <li><strong>Languages:</strong> Java, Python, JavaScript, TypeScript, C++, Kotlin, Swift</li>
+                <li><strong>Backend:</strong> Spring Boot, REST APIs, Microservices</li>
+                <li><strong>Field Systems:</strong> Robotics systems support, deployment, troubleshooting</li>
+                <li><strong>Cloud:</strong> AWS (EC2, S3, DynamoDB)</li>
+                <li><strong>Databases:</strong> MySQL, PostgreSQL, DynamoDB</li>
+                <li><strong>Frontend:</strong> React</li>
+                <li><strong>Tools:</strong> Docker, Git, GitHub</li>
+                <li><strong>Languages:</strong> English, Mandarin</li>
+              </ul>
         </section>
 
         <section id="projects">
@@ -85,11 +94,11 @@ function App() {
           <div className="project">
             <h3>Capstone Project: Online E-commerce Marketplace for Selling Salvaged Lumber</h3>
             <p>Urban Machine • September 2022 - March 2023</p>
-            <p>
+            <ul>
               <li>Collaborated in a team of 5 students to develop a prototype application for selling salvaged lumber online.</li>
               <li>Designed and implemented an online e-commerce marketplace with a three-tier architecture.</li>
-              <li>Utilized PostgreSQL, SQL, Python, Node.js, Typescript, and REST APIs for database management, full stack development, and seamless integration of user interactions.</li>
-            </p>
+              <li>Utilized PostgreSQL, SQL, Python, Node.js, TypeScript, and REST APIs for database management, full stack development, and system integration.</li>
+            </ul>
           </div>
         </section>
 
