@@ -45,7 +45,7 @@ function App() {
 
           <div className="project">
             <h3>Software Engineer Intern / Field Engineer - Artly AI</h3>
-              <p>September 2022 - September 2023</p>
+              <p>September 2022 - April 2026</p>
 
               <ul>
                 <li>Developed and maintained backend services for an order management system handling 1,000+ daily transactions using Java and DynamoDB.</li>
@@ -71,14 +71,13 @@ function App() {
           <div className="project">
             <h3>Chung Yuan Christian University</h3>
             <p>Bachelor's Degree in Mechanical Engineering</p>
-            <p>Mechanical Engineering Foundation Program</p>
           </div>
         </section>
 
         <section id="skills">
           <h2>Skills</h2>
              <ul>
-                <li><strong>Languages:</strong> Java, Python, JavaScript, TypeScript, C++, Kotlin, Swift</li>
+                <li><strong>Program Languages:</strong> Java, Python, JavaScript, TypeScript, C++, Kotlin, Swift</li>
                 <li><strong>Backend:</strong> Spring Boot, REST APIs, Microservices</li>
                 <li><strong>Field Systems:</strong> Robotics systems support, deployment, troubleshooting</li>
                 <li><strong>Cloud:</strong> AWS (EC2, S3, DynamoDB)</li>
