@@ -8,7 +8,7 @@ function App() {
     <header className="App-header">
       <img src={profilePic} alt="Alan Hsu" className="profile" />
       <h1>Alan Hsu</h1>
-      <p>Software Engineer</p>
+      <p>Software Engineer • Field Engineer • Technical Support</p>
     </header>
 
       <nav>
@@ -25,28 +25,28 @@ function App() {
       <main>
         <section id="about">
           <h2>About Me</h2>
-          <p>I’m Alan Hsu, a software developer with a robust foundation in full stack and mobile development. Before transitioning to tech, I managed a Starbucks store full-time while balancing my studies, successfully driving business growth, enhancing customer satisfaction, and reducing turnover. I achieved a GPA of 3.86 and graduated summa cum laude during this period.</p>
-          <p>In my role as a Software Engineer Intern at Artly AI, I gained extensive hands-on experience and honed my skills across various aspects of software development. I focused heavily on Java object-oriented programming, including encapsulation to ensure data integrity and security, the Spring Boot framework, and the Model-View-Controller (MVC) architecture. My work involved using Data Access Objects (DAO) and Business Objects (BO), JavaBeans, and controllers to build APIs, which deepened my understanding of building scalable and maintainable software solutions. Additionally, I worked with AWS DynamoDB, implemented APIs, and contributed to frontend development using React, Swift, and Kotlin for mobile app and web development.</p>
-          <p>I’m skilled in Java, React, Python, JavaScript, and TypeScript, with experience in backend development, AWS, web development with React and React-admin, and mobile app development using Kotlin and Swift. I’m excited to leverage my diverse skills and experiences in a dynamic and collaborative environment.</p>
+            <p>I’m a Software Engineer with hands-on experience across full-stack development, field engineering, and technical support in robotics and production environments.I enjoy working across both software systems and real-world hardware deployments, bridging the gap between engineering teams and on-site operations.</p>
+          <p>Previously, I worked as a Store Manager at Starbucks while completing my degree, where I developed strong leadership, customer service, and operational problem-solving skills.I graduated summa cum laude with a GPA of 3.68 while working full time.</p>
+  <p>In my engineering experience, I have built and supported production systems including backend services, APIs, and robotics-integrated workflows.I’ve worked with Java, Spring Boot, AWS (DynamoDB), and React, as well as on-site systems support, debugging, and field troubleshooting for deployed hardware/software systems.</p>
 
         </section>
 
-        <section id="experience">
-          <h2>Work Experience</h2>
-          <div className="project">
-            <h3>Software Engineer Intern - Artly AI.</h3>
-            <p>September 2022 - September 2023</p>
+      <section id="experience">
+        <h2>Work Experience</h2>
 
-              <li>Designed and implemented an order management system processing 1,000+ daily orders, utilizing DynamoDB for efficient querying and data management while adhering to strict coding standards.</li>
-              <li>Implemented data visualization components using React and Node.js, showcasing proficiency in multiple programming languages.</li>
-              <li>Designed and implemented RESTful API for seamless communication between system components, demonstrating strong problem-solving skills.</li>
-              <li>Ensured code quality and reliability by conducting thorough code reviews and implementing automated testing framework, resulting in 98% bug-free codebase.</li>
-              <li>Utilized the robotics middleware (ROS) to adjust robot actions and program automated tasks, enhancing operational efficiency and precision.</li>
-              <li>Increased team productivity by 20% through successful implementation of Robot IO management features, saving 40 OPS days per year.</li>
-              <li>Streamlined store metadata management process, increasing efficiency by 50% and empowering non-technical team members.</li>
-              <li>Improved code reliability by developing and executing automated tests, including unit and integration tests with SpringBootTest and JUnit.</li>
-              <li>Collaborated with cross-functional teams to create UI design for iOS & Android apps, ensuring intuitive and visually appealing UI design while applying computer science concepts and demonstrating effective problem solver capabilities.</li>
-         
+          <div className="project">
+            <h3>Software Engineer Intern / Field Engineer - Artly AI</h3>
+              <p>September 2022 - September 2023</p>
+
+              <ul>
+                <li>Developed and maintained backend services for an order management system handling 1,000+ daily transactions using Java and DynamoDB.</li>
+                <li>Built and supported RESTful APIs for communication between software systems and robotics hardware components.</li>
+                <li>Worked directly with robotics systems in production environments, supporting deployment, configuration, and real-time issue resolution.</li>
+                <li>Diagnosed and resolved on-site system issues, improving reliability and reducing downtime in field operations.</li>
+                <li>Implemented frontend features using React and Node.js for internal dashboards and operational tools.</li>
+                <li>Improved system reliability through automated testing (JUnit, SpringBootTest) and structured code reviews.</li>
+                <li>Collaborated with cross-functional engineering and operations teams to improve workflows and system efficiency.</li>
+              </ul>
           </div>
         </section>
 
@@ -58,17 +58,25 @@ function App() {
             <p>January 2020 - December 2023</p>
             <p>Cumulative GPA: 3.68/4.0, Major GPA: 3.84/4.0</p>
           </div>
+
+          <div className="project">
+            <h3>Chung Yuan Christian University</h3>
+            <p>Bachelor's Degree in Mechanical Engineering</p>
+            <p>Mechanical Engineering Foundation Program</p>
+          </div>
         </section>
 
         <section id="skills">
           <h2>Skills</h2>
           <p>
-            <li>Programming Languages: Java, Python, Golang, C, C++, C#, JavaScript, TypeScript, React, Kotlin, Swift, SQL</li>
-            <li>Containerization: Docker</li>
-            <li>Databases: MySQL, PostgreSQL</li>
-            <li>Cloud Technologies: AWS Cloud (EC2), Amazon S3, DynamoDB</li>
-            <li>Version Control: Git, GitHub</li>
-            <li>Languages: English, Chinese(Mandarin)</li>
+            <li>Languages: Java, Python, JavaScript, TypeScript, C++, Kotlin, Swift</li>
+            <li>Backend: Spring Boot, REST APIs, Microservices</li>
+            <li>Field / Systems: Robotics systems support, troubleshooting, deployment support</li>
+            <li>Cloud: AWS (EC2, S3, DynamoDB)</li>
+            <li>Databases: MySQL, PostgreSQL, DynamoDB</li>
+            <li>Frontend: React</li>
+            <li>Tools: Docker, Git, GitHub</li>
+            <li>Languages: English, Mandarin</li>
           </p>
         </section>
 
