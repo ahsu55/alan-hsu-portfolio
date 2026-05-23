@@ -26,17 +26,19 @@ function App() {
         <section id="about">
           <h2>About Me</h2>
             <p>
-              I’m a Software Engineer with experience across full-stack development, field engineering, and technical support in robotics and production environments.
-              I enjoy working across both software systems and real-world hardware deployments, bridging engineering teams with on-site operations.
+              I’m a Software Engineer with experience spanning full-stack development, robotics field engineering, and technical support in production environments. My background combines software development with hands-on operational and field experience, allowing me to bridge engineering teams with real-world deployments and customer-facing support.
             </p>
 
             <p>
-              Previously, I worked as a Store Manager at Starbucks while completing my degree, where I developed strong leadership, customer service, and operational problem-solving skills.
-              I graduated summa cum laude with a 3.68 GPA while working full time.
+              My field engineering experience has strengthened my ability to diagnose complex technical issues under pressure, communicate effectively with both technical and non-technical stakeholders, and adapt quickly in fast-paced environments where uptime and reliability are critical.
             </p>
 
             <p>
-              My engineering experience includes building backend services, APIs, and robotics-integrated systems using Java, Spring Boot, AWS (DynamoDB), and React, along with hands-on field troubleshooting and system support in production environments.
+              Before transitioning into engineering full time, I worked as a Store Manager at Starbucks while completing my degree at Arizona State University. That experience helped develop my leadership, customer service, and operational problem-solving skills. I graduated summa cum laude while balancing full-time work and academics.
+            </p>
+
+            <p>
+              I enjoy building practical systems, solving real-world engineering problems, and working at the intersection of software, hardware, and operations.
             </p>
         </section>
 
