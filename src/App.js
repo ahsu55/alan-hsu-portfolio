@@ -59,6 +59,20 @@ function App() {
                 <li>Collaborated with cross-functional engineering and operations teams to improve workflows and system efficiency.</li>
               </ul>
           </div>
+      
+          <div className="project">
+                  <h3>Store Manager - Starbucks Coffee Company</h3>
+                    <p>December 2008 - September 2022</p>
+                    <p>Promoted internally from Barista to Store Manager over 13+ years through demonstrated leadership, operational execution, and problem-solving in high-volume production environmet. </p>
+                    <ul>
+                      <li>Led daily operations including workflow coordination, staffing, inventory management, equipment oversight, and operational uptime.</li>
+                      <li>Built and managed high-performing teams while maintaining operational efficiency in fast-paced environments.</li>
+                      <li>Recognized as Manager of the Quarter (Q3 2017, Q2 2022) for operational performance and leadership.</li>
+                      <li>Increased annual sales performance by 5–10% year-over-year through workflow improvements, customer retention, and team development.</li>
+                      <li>Maintained hourly turnover rates approximately 40% below company average through mentorship and strong team culture.</li>
+                      <li>Consistently exceeded customer satisfaction goals through operational execution, coaching, and process optimization.</li>
+                    </ul>
+                </div>
         </section>
 
         <section id="education">
