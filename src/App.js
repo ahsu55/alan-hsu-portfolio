@@ -13,12 +13,13 @@ function App() {
 
       <nav>
         <ul>
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#education">Education</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#contact">Contact</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#experience">Experience</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#education">Education</a></li>
+              <li><a href="#projects">Projects</a></li>
+              <li><a href="#certifications">Certifications</a></li>
+              <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
 
@@ -86,6 +87,20 @@ function App() {
                 </div>
         </section>
 
+        <section id="skills">
+          <h2>Skills</h2>
+             <ul>
+                <li><strong>Program Languages:</strong> Java, Python, JavaScript, TypeScript, C++, Kotlin, Swift</li>
+                <li><strong>Backend:</strong> Spring Boot, REST APIs, Microservices</li>
+                <li><strong>Field Systems:</strong> Robotics systems support, deployment, troubleshooting</li>
+                <li><strong>Cloud:</strong> AWS (EC2, S3, DynamoDB)</li>
+                <li><strong>Databases:</strong> MySQL, PostgreSQL, DynamoDB</li>
+                <li><strong>Frontend:</strong> React</li>
+                <li><strong>Tools:</strong> Docker, Git, GitHub</li>
+                <li><strong>Languages:</strong> English, Mandarin</li>
+              </ul>
+        </section>
+
         <section id="education">
           <h2>Education</h2>
           <div className="project">
@@ -101,20 +116,6 @@ function App() {
           </div>
         </section>
 
-        <section id="skills">
-          <h2>Skills</h2>
-             <ul>
-                <li><strong>Program Languages:</strong> Java, Python, JavaScript, TypeScript, C++, Kotlin, Swift</li>
-                <li><strong>Backend:</strong> Spring Boot, REST APIs, Microservices</li>
-                <li><strong>Field Systems:</strong> Robotics systems support, deployment, troubleshooting</li>
-                <li><strong>Cloud:</strong> AWS (EC2, S3, DynamoDB)</li>
-                <li><strong>Databases:</strong> MySQL, PostgreSQL, DynamoDB</li>
-                <li><strong>Frontend:</strong> React</li>
-                <li><strong>Tools:</strong> Docker, Git, GitHub</li>
-                <li><strong>Languages:</strong> English, Mandarin</li>
-              </ul>
-        </section>
-
         <section id="projects">
           <h2>Projects</h2>
           <div className="project">
@@ -126,6 +127,20 @@ function App() {
               <li>Utilized PostgreSQL, SQL, Python, Node.js, TypeScript, and REST APIs for database management, full stack development, and system integration.</li>
             </ul>
           </div>
+        </section>
+
+        <section id="certifications">
+          <h2>Certifications</h2>
+
+          <div className="project">
+            <h3>Technical Diagnostics and Troubleshooting Techniques</h3>
+            <p><strong>Microsoft</strong> · July 2026</p>
+          </div>
+
+          <div className="project">
+            <h3>Artificial Intelligence Foundations: Machine Learning</h3>
+            <p><strong>LinkedIn</strong> · June 2024</p>
+           </div>
         </section>
 
         <section id="contact">
