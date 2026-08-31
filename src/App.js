@@ -58,7 +58,7 @@ function App() {
           
           <div className="project">
             <h3>Software Engineer Intern - Artly AI</h3>
-              <p>September 2022 - August 2026</p>
+              <p>September 2022 - August 2023</p>
 
               <ul>
                 <li>Built a full-stack order management system handling 1,000+ daily orders using Node.js, DynamoDB, and REST APIs.</li>
