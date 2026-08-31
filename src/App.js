@@ -26,37 +26,48 @@ function App() {
         <section id="about">
           <h2>About Me</h2>
             <p>
-              I’m a Software Engineer with experience spanning full-stack development, robotics field engineering, and technical support in production environments. My background combines software development with hands-on operational and field experience, allowing me to bridge engineering teams with real-world deployments and customer-facing support.
+              I’m a Software and Field Engineer with a background in software development, robotics, and production deployments. I’ve worked hands-on with robotic systems in real-world environments, where I’ve been responsible for deployment, configuration, troubleshooting, software support, and keeping systems running reliably in the field.
             </p>
-
             <p>
-              My field engineering experience has strengthened my ability to diagnose complex technical issues under pressure, communicate effectively with both technical and non-technical stakeholders, and adapt quickly in fast-paced environments where uptime and reliability are critical.
+              My software engineering background allows me to approach field problems beyond just hardware troubleshooting—I’m comfortable investigating software, APIs, databases, configurations, and system behavior to identify and resolve issues. At the same time, my field experience has taught me how to work under pressure, communicate with customers and cross-functional teams, and turn engineering solutions into reliable real-world operations.
             </p>
-
             <p>
-              Before transitioning into engineering full time, I worked as a Store Manager at Starbucks while completing my degree at Arizona State University. That experience helped develop my leadership, customer service, and operational problem-solving skills. I graduated summa cum laude while balancing full-time work and academics.
+              Before transitioning into engineering, I worked as a Store Manager at Starbucks while completing my degree at Arizona State University. Balancing full-time work with school helped develop my leadership, communication, and operational problem-solving skills. I graduated summa cum laude.
             </p>
-
             <p>
-              I enjoy building practical systems, solving real-world engineering problems, and working at the intersection of software, hardware, and operations.
+             I enjoy solving practical engineering problems and working at the intersection of software, robotics, hardware, and real-world operations.
             </p>
         </section>
 
       <section id="experience">
         <h2>Work Experience</h2>
-
           <div className="project">
-            <h3>Software Engineer Intern / Field Engineer - Artly AI</h3>
-              <p>September 2022 - April 2026</p>
+            <h3>Field Engineer - Artly AI</h3>
+              <p>September 2023 - April 2026</p>
 
               <ul>
-                <li>Developed and maintained backend services for an order management system handling 1,000+ daily transactions using Java and DynamoDB.</li>
-                <li>Built and supported RESTful APIs for communication between software systems and robotics hardware components.</li>
-                <li>Worked directly with robotics systems in production environments, supporting deployment, configuration, and real-time issue resolution.</li>
-                <li>Diagnosed and resolved on-site system issues, improving reliability and reducing downtime in field operations.</li>
-                <li>Implemented frontend features using React and Node.js for internal dashboards and operational tools.</li>
-                <li>Improved system reliability through automated testing (JUnit, SpringBootTest) and structured code reviews.</li>
-                <li>Collaborated with cross-functional engineering and operations teams to improve workflows and system efficiency.</li>
+                <li>Deploy, configure, and maintain robotic systems at client locations and store events, including setup, calibration, operation, and teardown.</li>
+                <li>Troubleshoot and repair robotic systems, performing module-level diagnostics to ensure reliable operation.</li>
+                <li>Modify software configurations and system parameters to improve functionality and operational reliability.</li>
+                <li>Implement hardware and software upgrades to support evolving business requirements.</li>
+                <li>Managed DynamoDB and backend systems supporting robotic operations.</li>
+                <li>Provide on-site and remote technical support using Linux shell tools.</li>
+                <li>Utilize ROS and RViz to monitor robot state, visualize sensor data, and tune system parameters for calibration and deployment.</li>
+              </ul>
+          </div>
+          
+          <div className="project">
+            <h3>Software Engineer Intern - Artly AI</h3>
+              <p>September 2022 - August 2026</p>
+
+              <ul>
+                <li>Built a full-stack order management system handling 1,000+ daily orders using Node.js, DynamoDB, and REST APIs.</li>
+                <li>Developed React-based dashboards for system monitoring and operational visibility.</li>
+                <li>Designed and maintained backend services supporting real-time robotics and operational workflows.</li>
+                <li>Built and integrated REST APIs across system modules to ensure reliable data flow between frontend, backend, and robotics systems.</li>
+                <li>Implemented automated testing (JUnit, Spring Boot Test) to improve system stability and reduce production issues.</li>
+                <li>Integrated ROS-based robotics control into backend workflows for real-time system behavior updates.</li>
+                <li>Supported production deployments and resolved system issues in live customer environments.</li>
               </ul>
           </div>
       
@@ -127,7 +138,7 @@ function App() {
       </main>
 
       <footer>
-        <p>&copy; 2024 Alan Hsu. All rights reserved.</p>
+        <p>&copy; 2026 Alan Hsu. All rights reserved.</p>
       </footer>
     </div>
   );
