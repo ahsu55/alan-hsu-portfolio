@@ -15,7 +15,7 @@ function App() {
         <ul>
               <li><a href="#about">About</a></li>
               <li><a href="#experience">Experience</a></li>
-              <li><a href="#work-examples">Work Example</a></li>
+              <li><a href="#work-example">Work Example</a></li>
               <li><a href="#skills">Skills</a></li>
               <li><a href="#education">Education</a></li>
               <li><a href="#projects">Projects</a></li>
@@ -74,7 +74,7 @@ function App() {
               <ul>
                 <li>Built a full-stack order management system handling 1,000+ daily orders using Node.js, DynamoDB, and REST APIs.</li>
                 <li>Developed React-based dashboards for system monitoring and operational visibility.</li>
-                <li>Designed and maintained backend services supporting real-time robotics and operational workflows.</li>
+                <li>Designed and maintained backend services supporting customer and operational workflows.</li>
                 <li>Built and integrated REST APIs across system modules to ensure reliable data flow between frontend, backend, and robotics systems.</li>
                 <li>Implemented automated testing (JUnit, Spring Boot Test) to improve system stability and reduce production issues.</li>
                 <li>Integrated ROS-based robotics control into backend workflows for real-time system behavior updates.</li>
@@ -85,7 +85,7 @@ function App() {
           <div className="project">
                   <h3>Store Manager - Starbucks Coffee Company</h3>
                     <p>December 2008 - September 2022</p>
-                    <p>Promoted internally from Barista to Store Manager over 13+ years through demonstrated leadership, operational execution, and problem-solving in high-volume production environmet. </p>
+                    <p>Promoted internally from Barista to Store Manager over 13+ years through demonstrated leadership, operational execution, and problem-solving in high-volume production environment. </p>
                     <ul>
                       <li>Led daily operations including workflow coordination, staffing, inventory management, equipment oversight, and operational uptime.</li>
                       <li>Built and managed high-performing teams while maintaining operational efficiency in fast-paced environments.</li>
@@ -226,14 +226,15 @@ function App() {
               </li>
             </ul>
           </div>
+        </section>
   
         {/* SKILLS */}
         <section id="skills">
           <h2>Skills</h2>
              <ul>
-                <li><strong>Program Languages:</strong> Java, Python, JavaScript, TypeScript, C++, Kotlin, Swift</li>
+                <li><strong>Programming Languages:</strong> Java, Python, JavaScript, TypeScript, C++, Kotlin, Swift</li>
                 <li><strong>Backend:</strong> Spring Boot, REST APIs, Microservices</li>
-                <li><strong>Robotics & Field Systems:</strong> Robotics deployment,system integration, troubleshooting, calibration, production support</li>
+                <li><strong>Robotics & Field Systems:</strong> Robotics deployment, system integration, troubleshooting, calibration, production support</li>
                 <li><strong>Robotics Tools:</strong> ROS, RViz</li>
                 <li><strong>Cloud:</strong> AWS (EC2, S3, DynamoDB)</li>
                 <li><strong>Databases:</strong> MySQL, PostgreSQL, DynamoDB</li>
