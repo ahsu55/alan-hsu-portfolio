@@ -8,13 +8,14 @@ function App() {
     <header className="App-header">
       <img src={profilePic} alt="Alan Hsu" className="profile" />
       <h1>Alan Hsu</h1>
-      <p>Software Engineer • Field Engineer • Technical Support</p>
+      <p>Field Engineer • Robotics • Software Engineering</p>
     </header>
 
       <nav>
         <ul>
               <li><a href="#about">About</a></li>
               <li><a href="#experience">Experience</a></li>
+              <li><a href="#work-examples">Selected Field Work</a></li>
               <li><a href="#skills">Skills</a></li>
               <li><a href="#education">Education</a></li>
               <li><a href="#projects">Projects</a></li>
@@ -27,16 +28,22 @@ function App() {
         <section id="about">
           <h2>About Me</h2>
             <p>
-              I’m a Software and Field Engineer with a background in software development, robotics, and production deployments. I’ve worked hands-on with robotic systems in real-world environments, where I’ve been responsible for deployment, configuration, troubleshooting, software support, and keeping systems running reliably in the field.
+                I’m a Field and Software Engineer with a background in robotics, software development, and production deployments. 
+                I’ve worked hands-on with robotic systems in real-world environments, covering deployment, configuration, calibration, 
+                troubleshooting, software support, and system maintenance.
             </p>
-            <p>
-              My software engineering background allows me to approach field problems beyond just hardware troubleshooting—I’m comfortable investigating software, APIs, databases, configurations, and system behavior to identify and resolve issues. At the same time, my field experience has taught me how to work under pressure, communicate with customers and cross-functional teams, and turn engineering solutions into reliable real-world operations.
+            <p> My software engineering background allows me to troubleshoot beyond the hardware layer. I’m comfortable investigating software,
+                APIs, databases, configurations, logs, and system behavior to identify and resolve issues. My field experience has also taught 
+                me how to work under pressure, communicate with customers and engineering teams, and keep systems operating reliably in real-world 
+                environments. 
             </p>
-            <p>
-              Before transitioning into engineering, I worked as a Store Manager at Starbucks while completing my degree at Arizona State University. Balancing full-time work with school helped develop my leadership, communication, and operational problem-solving skills. I graduated summa cum laude.
+            <p> 
+                Before transitioning into engineering, I worked as a Store Manager at Starbucks while completing my degree at Arizona State University. 
+                Balancing full-time work with school helped develop my leadership, communication, and operational problem-solving skills. I graduated 
+                summa cum laude. 
             </p>
-            <p>
-             I enjoy solving practical engineering problems and working at the intersection of software, robotics, hardware, and real-world operations.
+            <p> 
+                  I enjoy solving practical engineering problems and working at the intersection of software, robotics, hardware, and real-world operations. 
             </p>
         </section>
 
@@ -47,13 +54,14 @@ function App() {
               <p>September 2023 - April 2026</p>
 
               <ul>
-                <li>Deploy, configure, and maintain robotic systems at client locations and store events, including setup, calibration, operation, and teardown.</li>
-                <li>Troubleshoot and repair robotic systems, performing module-level diagnostics to ensure reliable operation.</li>
-                <li>Modify software configurations and system parameters to improve functionality and operational reliability.</li>
-                <li>Implement hardware and software upgrades to support evolving business requirements.</li>
-                <li>Managed DynamoDB and backend systems supporting robotic operations.</li>
-                <li>Provide on-site and remote technical support using Linux shell tools.</li>
-                <li>Utilize ROS and RViz to monitor robot state, visualize sensor data, and tune system parameters for calibration and deployment.</li>
+                  <li> Deployed, configured, calibrated, operated, and maintained robotic systems at customer locations, stores, and events. </li>
+                  <li> Diagnosed and repaired robotic systems through structured, module-level troubleshooting across mechanical, electrical, software, and configuration layers. </li>
+                  <li> Used ROS and RViz to monitor robot state, inspect sensor data, troubleshoot runtime issues, and tune system parameters during deployment and calibration. </li>
+                  <li> Used Linux shell tools and system logs to investigate software, runtime, networking, and system-level issues during field operations. </li>
+                  <li> Modified software configurations and system parameters to improve functionality, reliability, and operational performance. </li>
+                  <li> Performed hardware and software upgrades, module replacements, calibration, preventive maintenance, and post-deployment troubleshooting. </li>
+                  <li> Investigated backend and operational data using AWS and DynamoDB to support troubleshooting and system configuration. </li>
+                  <li> Provided on-site and remote technical support to keep robotic systems operational in customer environments. </li>
               </ul>
           </div>
           
@@ -92,22 +100,26 @@ function App() {
              <ul>
                 <li><strong>Program Languages:</strong> Java, Python, JavaScript, TypeScript, C++, Kotlin, Swift</li>
                 <li><strong>Backend:</strong> Spring Boot, REST APIs, Microservices</li>
-                <li><strong>Field Systems:</strong> Robotics systems support, deployment, troubleshooting</li>
+                <li><strong>Robotics & Field Systems:</strong> Robotics deployment,system integration, troubleshooting, calibration, production support</li>
+                <li><strong>Robotics Tools:</strong> ROS, RViz</li>
                 <li><strong>Cloud:</strong> AWS (EC2, S3, DynamoDB)</li>
                 <li><strong>Databases:</strong> MySQL, PostgreSQL, DynamoDB</li>
                 <li><strong>Frontend:</strong> React</li>
+                <li><strong>Systems:</strong> Linux, Bash, Shell Tools</li>
                 <li><strong>Tools:</strong> Docker, Git, GitHub</li>
                 <li><strong>Languages:</strong> English, Mandarin</li>
               </ul>
         </section>
-
         <section id="education">
           <h2>Education</h2>
+
           <div className="project">
             <h3>Arizona State University</h3>
             <p>Bachelor of Science in Software Engineering</p>
             <p>January 2020 - December 2023</p>
-            <p>Cumulative GPA: 3.68/4.0, Major GPA: 3.84/4.0</p>
+            <p>
+              Cumulative GPA: 3.68/4.0, Major GPA: 3.84/4.0
+            </p>
           </div>
 
           <div className="project">
@@ -116,39 +128,96 @@ function App() {
           </div>
         </section>
 
+        {/* PROJECTS */}
         <section id="projects">
           <h2>Projects</h2>
+
           <div className="project">
-            <h3>Capstone Project: Online E-commerce Marketplace for Selling Salvaged Lumber</h3>
+            <h3>
+              Capstone Project: Online E-commerce Marketplace for Selling
+              Salvaged Lumber
+            </h3>
+
             <p>Urban Machine • September 2022 - March 2023</p>
+
             <ul>
-              <li>Collaborated in a team of 5 students to develop a prototype application for selling salvaged lumber online.</li>
-              <li>Designed and implemented an online e-commerce marketplace with a three-tier architecture.</li>
-              <li>Utilized PostgreSQL, SQL, Python, Node.js, TypeScript, and REST APIs for database management, full stack development, and system integration.</li>
+              <li>
+                Collaborated in a team of 5 students to develop a prototype
+                application for selling salvaged lumber online.
+              </li>
+              <li>
+                Designed and implemented an online e-commerce marketplace
+                using a three-tier architecture.
+              </li>
+              <li>
+                Utilized PostgreSQL, SQL, Python, Node.js, TypeScript, and REST
+                APIs for database management, full-stack development, and
+                system integration.
+              </li>
             </ul>
           </div>
         </section>
 
+        {/* CERTIFICATIONS */}
         <section id="certifications">
           <h2>Certifications</h2>
 
           <div className="project">
             <h3>Technical Diagnostics and Troubleshooting Techniques</h3>
-            <p><strong>Microsoft</strong> · July 2026</p>
+            <p>
+              <strong>Microsoft</strong> · July 2026
+            </p>
           </div>
 
           <div className="project">
             <h3>Artificial Intelligence Foundations: Machine Learning</h3>
-            <p><strong>LinkedIn</strong> · June 2024</p>
-           </div>
+            <p>
+              <strong>LinkedIn</strong> · June 2024
+            </p>
+          </div>
         </section>
 
+        {/* CONTACT */}
         <section id="contact">
           <h2>Contact</h2>
-          <p>Email: alaste22@gmail.com</p>
-          <p>Phone: (650) 451-2294</p>
+
+          <p>
+            Email:{' '}
+            <a href="mailto:alaste22@gmail.com">
+              alaste22@gmail.com
+            </a>
+          </p>
+
+          <p>
+            Phone:{' '}
+            <a href="tel:+16504512294">
+              (650) 451-2294
+            </a>
+          </p>
+
           <p>Location: San Mateo, CA</p>
-          <p>LinkedIn: <a href="https://www.linkedin.com/in/alan-hsu-096065161" target="_blank" rel="noopener noreferrer">linkedin.com/in/alan-hsu-096065161</a></p>
+
+          <p>
+            LinkedIn:{' '}
+            <a
+              href="https://www.linkedin.com/in/alan-hsu-096065161"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              linkedin.com/in/alan-hsu-096065161
+            </a>
+          </p>
+
+          <p>
+            Portfolio:{' '}
+            <a
+              href="https://ahsu55.github.io/alan-hsu-portfolio/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              ahsu55.github.io/alan-hsu-portfolio
+            </a>
+          </p>
         </section>
       </main>
 
