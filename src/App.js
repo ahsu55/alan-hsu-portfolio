@@ -15,7 +15,7 @@ function App() {
         <ul>
               <li><a href="#about">About</a></li>
               <li><a href="#experience">Experience</a></li>
-              <li><a href="#work-examples">Selected Field Work</a></li>
+              <li><a href="#work-examples">Work Example</a></li>
               <li><a href="#skills">Skills</a></li>
               <li><a href="#education">Education</a></li>
               <li><a href="#projects">Projects</a></li>
@@ -25,6 +25,7 @@ function App() {
       </nav>
 
       <main>
+      {/* ABOUT */}
         <section id="about">
           <h2>About Me</h2>
             <p>
@@ -46,7 +47,8 @@ function App() {
                   I enjoy solving practical engineering problems and working at the intersection of software, robotics, hardware, and real-world operations. 
             </p>
         </section>
-
+  
+      {/* EXPERIENCE */}
       <section id="experience">
         <h2>Work Experience</h2>
           <div className="project">
@@ -95,6 +97,137 @@ function App() {
                 </div>
         </section>
 
+        {/* WORK EXAMPLE */}
+        <section id="work-example">
+          <h2>Field Robotics Systems</h2>
+
+          <h3>Deployment, Integration & Troubleshooting</h3>
+
+          <p>
+            Hands-on experience deploying, configuring, operating, and
+            maintaining robotic systems in dynamic customer and production
+            environments. My field work spans system integration, module-level
+            diagnostics, hardware and software troubleshooting, Linux-based
+            support, and ROS/RViz-based robot monitoring and calibration.
+          </p>
+
+          <div className="project">
+            <h3>Technical Stack & Tools</h3>
+
+            <ul>
+              <li>
+                <strong>Robot & Middleware:</strong> ROS, RViz
+              </li>
+              <li>
+                <strong>Operating Systems & Runtime:</strong> Linux, Bash,
+                Shell Tools, System Diagnostics
+              </li>
+              <li>
+                <strong>Backend & Services:</strong> AWS, DynamoDB, REST APIs
+              </li>
+              <li>
+                <strong>Programming & Scripting:</strong> Python, Java
+              </li>
+              <li>
+                <strong>Hardware:</strong> Sensors, actuators, relays,
+                control boards, power systems
+              </li>
+            </ul>
+          </div>
+
+          <div className="project">
+            <h3>Field Deployment & System Integration</h3>
+
+            <p>
+              <strong>Pre-Deployment:</strong> Complete system checkout,
+              configuration review, equipment preparation, and verification of
+              required hardware and software components.
+            </p>
+
+            <p>
+              <strong>On-Site Integration:</strong> Install and configure
+              robotic systems, connect and validate supporting electromechanical
+              equipment, and perform calibration and operational checks.
+            </p>
+
+            <p>
+              <strong>Commissioning:</strong> Operate systems under real-world
+              conditions, monitor robot state, tune parameters, and verify
+              reliable performance before operational handoff.
+            </p>
+
+            <p>
+              <strong>Post-Deployment:</strong> Perform teardown, investigate
+              issues discovered during operation, document field findings, and
+              provide ongoing remote technical support.
+            </p>
+          </div>
+
+          <div className="project">
+            <h3>Structured Troubleshooting Approach</h3>
+
+            <p>
+              When a field system encounters a fault, I focus on isolating the
+              issue systematically before changing multiple variables at once.
+              Starting from the observed symptoms, I evaluate the mechanical,
+              electrical, software, configuration, and integration layers.
+            </p>
+
+            <ol>
+              <li>
+                <strong>Observe:</strong> Reproduce the failure safely and
+                document symptoms and operating conditions.
+              </li>
+              <li>
+                <strong>Isolate:</strong> Determine which system layer is most
+                likely responsible for the fault.
+              </li>
+              <li>
+                <strong>Diagnose:</strong> Analyze logs, Linux runtime behavior,
+                ROS topics and states, configurations, and hardware behavior.
+              </li>
+              <li>
+                <strong>Correct:</strong> Apply targeted repairs,
+                recalibration, module replacement, or software changes.
+              </li>
+              <li>
+                <strong>Validate:</strong> Run operational testing to confirm
+                the system is functioning reliably.
+              </li>
+              <li>
+                <strong>Close the Loop:</strong> Document findings and
+                communicate technical feedback for future improvements.
+              </li>
+            </ol>
+          </div>
+
+          <div className="project">
+            <h3>System-Level Debugging</h3>
+
+            <ul>
+              <li>
+                <strong>Physical System:</strong> Inspect motion, mechanical
+                wear, wiring, sensor alignment, and hardware interactions.
+              </li>
+              <li>
+                <strong>Robot / Middleware:</strong> Use ROS and RViz to
+                monitor robot state, visualize sensor data, and tune calibration
+                parameters.
+              </li>
+              <li>
+                <strong>Linux / Runtime:</strong> Use shell utilities and
+                system diagnostics to investigate processes, resources,
+                networking, and runtime configuration.
+              </li>
+              <li>
+                <strong>Application / Backend:</strong> Trace application
+                behavior through REST APIs and evaluate cloud database state
+                such as DynamoDB.
+              </li>
+            </ul>
+          </div>
+  
+        {/* SKILLS */}
         <section id="skills">
           <h2>Skills</h2>
              <ul>
