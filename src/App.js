@@ -56,14 +56,17 @@ function App() {
               <p>September 2023 - April 2026</p>
 
               <ul>
-                  <li> Deployed, configured, calibrated, operated, and maintained robotic systems at customer locations, stores, and events. </li>
-                  <li> Diagnosed and repaired robotic systems through structured, module-level troubleshooting across mechanical, electrical, software, and configuration layers. </li>
-                  <li> Used ROS and RViz to monitor robot state, inspect sensor data, troubleshoot runtime issues, and tune system parameters during deployment and calibration. </li>
-                  <li> Used Linux shell tools and system logs to investigate software, runtime, networking, and system-level issues during field operations. </li>
-                  <li> Modified software configurations and system parameters to improve functionality, reliability, and operational performance. </li>
-                  <li> Performed hardware and software upgrades, module replacements, calibration, preventive maintenance, and post-deployment troubleshooting. </li>
-                  <li> Investigated backend and operational data using AWS and DynamoDB to support troubleshooting and system configuration. </li>
-                  <li> Provided on-site and remote technical support to keep robotic systems operational in customer environments. </li>
+                  <li> Deployed and commissioned robotic coffee systems across 20+ customer sites and live events in the U.S. and Canada with a 100% on-time completion rate, handling equipment receiving, staging, installation, configuration, calibration, operational testing, teardown, and packing. </li>
+                  <li> Troubleshot robotic hardware and software failures in customer environments by isolating symptoms, checking system status and logs, inspecting hardware and wiring, and leveraging ROS/RViz and sensor data to restore operation. </li>
+                  <li> Diagnosed and repaired component-level hardware issues involving sensors, cameras, linear servo actuators, solenoids, relays, control boards, and mechanical components using multimeters and system diagnostics. </li>
+                  <li> Authored illustrated SOPs and step-by-step troubleshooting runbooks for both electro-mechanical subsystems and software tools, providing technical teams with visual guides for precision repairs and platform configurations. </li>
+                  <li> Utilized ROS and RViz for field diagnostics and calibration, monitoring robot state, sensor data, camera feeds, TF relationships, and launch configurations to isolate issues across hardware and software boundaries. </li>
+                  <li> Resolved software and configuration issues by reviewing Linux logs, modifying launch files/configuration parameters, and validating system behavior post-change. </li>
+                  <li> Troubleshot networking, Linux services, backend connectivity, and database configurations during on-site and remote customer support, escalating complex software bugs to core engineering when required. </li>
+                  <li> Performed preventive maintenance and post-repair validation by inspecting components, replacing failed parts, recalibrating systems, and running comprehensive operational tests. </li>
+                  <li> Provided high-tier on-site and remote technical support 5 days per week, responding to service tickets and guiding troubleshooting from initial symptom identification through final resolution. </li>
+                  <li> Partnered cross-functionally with software and engineering teams by providing field diagnostics, reproducing issues, and validating technical fixes on deployed systems. </li>
+                  <li> Supported live customer coffee service, managing unexpected robot failures and implementing real-time adjustments to minimize service interruptions and maximize uptime. </li>
               </ul>
           </div>
           
@@ -87,12 +90,12 @@ function App() {
                     <p>December 2008 - September 2022</p>
                     <p>Promoted internally from Barista to Store Manager over 13+ years through demonstrated leadership, operational execution, and problem-solving in high-volume production environment. </p>
                     <ul>
-                      <li>Led daily operations including workflow coordination, staffing, inventory management, equipment oversight, and operational uptime.</li>
-                      <li>Built and managed high-performing teams while maintaining operational efficiency in fast-paced environments.</li>
-                      <li>Recognized as Manager of the Quarter (Q3 2017, Q2 2022) for operational performance and leadership.</li>
-                      <li>Increased annual sales performance by 5–10% year-over-year through workflow improvements, customer retention, and team development.</li>
-                      <li>Maintained hourly turnover rates approximately 40% below company average through mentorship and strong team culture.</li>
-                      <li>Consistently exceeded customer satisfaction goals through operational execution, coaching, and process optimization.</li>
+                      <li> Led teams of 20–30 employees and directed daily store operations, ensuring cross-functional workflow coordination, staffing, logistics, and 100% operational continuity in a high-volume client environment. </li>
+                      <li> Improved annual sales performance by 5–10% YoY and reduced employee turnover by 40% below company average through proactive team coaching, technical training, and workflow optimization. </li>
+                      <li> Reduced hourly employee turnover to approximately 40% below company average through hands-on coaching, mentoring, and team development. </li>
+                      <li> Oversaw equipment and operational issues, coordinating troubleshooting, maintenance, and timely resolution to minimize service disruptions. </li>
+                      <li> Consistently exceeded customer satisfaction goals through process improvement, team coaching, and effective day-to-day execution. </li>
+                      <li> Recognized as Manager of the Quarter (Q3 2017, Q2 2022) for operational performance and leadership. </li>
                     </ul>
                 </div>
         </section>
